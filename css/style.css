@@ -18,15 +18,15 @@
     color: #8892BF
 }
 .text-container .text,
-.text-container .length-text{
+.text-container .text-length{
     color: #fff;
     word-spacing: 1px;
     line-height: 1.4em;
     font-size: 20px;
 }
-.length-text{
+.text-length{
     margin-top: 20px
 }
-.length-number{
+.number-length{
     color: red
 }

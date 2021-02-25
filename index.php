@@ -22,7 +22,7 @@
 
         $lengthParagraph=strlen($text);
 
-        $text=str_replace('debitis', '***', $text);
+        $text=str_replace('aut', '***', $text);
         
     ?>
     <div class="container">
@@ -31,7 +31,7 @@
 
         <div class="text-container">
             <p class="text"><?php echo $text; ?></p>
-            <p class="length-text">La lunghezza del paragrafo è di <span class="length-number"><?php echo $lengthParagraph?></span> lettere!</p>
+            <p class="text-length">La lunghezza del paragrafo è di <span class="number-length"><?php echo $lengthParagraph?></span> caratteri!</p>
         </div>
 
     </div>
