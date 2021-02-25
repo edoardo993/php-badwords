@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #222
+}
+.container{
+    width: 1200px;
+    margin: 0 auto
+}
+.main-title{
+    text-align: center;
+    color: #800800;
+    margin: 50px 0 50px 0;
+    font-size: 50px;
+}
+.php-word{
+    color: #8892BF
+}
+.text-container .text,
+.text-container .length-text{
+    color: #fff;
+    word-spacing: 1px;
+    line-height: 1.4em;
+    font-size: 20px;
+}
+.length-text{
+    margin-top: 20px
+}
+.length-number{
+    color: red
+}
